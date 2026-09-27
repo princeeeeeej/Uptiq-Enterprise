@@ -1,0 +1,13 @@
+spring.application.name=uptiq-api
+
+spring.datasource.url=jdbc:postgresql://postgres:5432/uptiq
+spring.datasource.username=postgres
+spring.datasource.password=your_password_here
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+server.port=8080
+
+jwt.secret=replace_with_a_long_random_secret_min_32_chars
